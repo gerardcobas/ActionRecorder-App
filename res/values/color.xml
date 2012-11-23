@@ -1,0 +1,4 @@
+<resources>
+    <drawable name="selected">#FFFFFF</drawable>
+    <drawable name="no_selected">#000000</drawable>
+</resources>

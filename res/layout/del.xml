@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp">
+    <ListView 
+    	android:id="@+id/listdel" 
+    	android:layout_width="fill_parent"
+    	android:layout_height="200dp">
+    </ListView>
+	<LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="right"
+	    android:layout_marginBottom="10dp"
+	    android:layout_marginTop="10dp">
+		<Button 
+			android:text="DEL" 
+			android:id="@+id/button_del" 
+			android:layout_height="wrap_content" 
+			android:layout_width="80dp"
+			android:layout_gravity="bottom"
+			android:layout_marginRight="10dp"/>
+		<Button 
+			android:text="Cancel" 
+			android:id="@+id/button_cancel_del" 
+			android:layout_height="wrap_content" 
+			android:layout_width="80dp"
+			android:layout_gravity="bottom"
+			android:layout_marginRight="10dp"/>
+	</LinearLayout>
+</LinearLayout>

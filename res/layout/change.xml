@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="20dp"
+    android:weightSum="1" >
+
+    <RadioGroup
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+      <RadioButton
+          android:id="@+id/T_Read"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/Read" />
+
+      <RadioButton
+          android:id="@+id/T_Watch"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/Watch" />
+
+      <RadioButton
+          android:id="@+id/T_Do"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/Do" />
+
+      <RadioButton
+          android:id="@+id/T_Buy"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/Buy" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="161dp"
+        android:layout_height="match_parent"
+        android:gravity="left"
+        android:orientation="vertical" >
+
+      <RadioButton
+          android:id="@+id/T_Music"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/Music" />
+
+      <RadioButton
+          android:id="@+id/T_Duties"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/Duties" />
+
+      <RadioButton
+          android:id="@+id/T_Browse"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/Browse" />
+
+      <RadioButton
+          android:id="@+id/T_Random"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/Random" />
+
+    </RadioGroup>
+</LinearLayout>

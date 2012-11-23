@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Action Recorder</string>
+    <string name="Read">Read</string>
+    <string name="Watch">Watch</string>
+    <string name="Do">Do</string>
+    <string name="Buy">Buy</string>
+    <string name="Music">Music</string>
+    <string name="Duties">Duties</string>
+    <string name="Browse">Browse</string>
+    <string name="Random">Random</string>
+
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="menu">
+    	<item>ALL</item>
+        <item>Read</item>
+        <item>Watch</item>
+        <item>Do</item>
+        <item>Buy</item>
+        <item>Music</item>
+        <item>Duties</item>
+        <item>Browse</item>
+        <item>Random</item>
+    </string-array>
+    
+    <string-array name="menu_add">
+        <item>Read</item>
+        <item>Watch</item>
+        <item>Do</item>
+        <item>Buy</item>
+        <item>Music</item>
+        <item>Duties</item>
+        <item>Browse</item>
+        <item>Random</item>
+    </string-array>
+</resources>
